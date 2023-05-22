@@ -12,4 +12,5 @@ public:
 	}
 	~pasien() {
 		cout << "pasien \"" << nama << "\" tidak ada\n";
+	}
 
