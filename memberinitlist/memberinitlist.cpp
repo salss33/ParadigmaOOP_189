@@ -13,4 +13,10 @@ public:
 	//Definisi
 	}
 
+	~mahasiswa() {
+		cout << "id = " << id << endl;
+		cout << "Nama = " << nama << endl;
+		cout << "Nilai = " << nilai <<  endl;
+	}
+
 };
