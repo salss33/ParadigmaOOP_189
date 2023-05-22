@@ -1,5 +1,5 @@
 #pragma once
-#ifindef IBU_H
+#ifndef IBU_H
 #define IBU_H
 #include <iostream>
 #include "anak.h"
@@ -14,10 +14,10 @@ public:
 	ibu(string pNama) :nama(pNama) {
 		cout << "ibu \"" << nama << "\" ada\n";
 	}
-	~ibu()
+	~ibu() {
 		cout << "ibu \"" << nama << "\" tidak ada\n";
 
-}
-
-void tambahAnak(anak*);
-void 
+    }
+      void tambahAnak(anak*);
+      void cetakAnak();
+};
