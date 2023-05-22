@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
 #include "anak.h"
 #include "ibu.h"
 
@@ -13,7 +14,7 @@ int main() {
 
 	varIbu->tambahAnak(varAnak1);
 	varIbu->tambahAnak(varAnak2);
-	varIbu->tambahAnak(varAnak3);
-	varIbu->tambahAnak(varAnak1);
+	varIbu2->tambahAnak(varAnak3);
+	varIbu2->tambahAnak(varAnak1);
 
 }
