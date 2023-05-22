@@ -17,4 +17,10 @@ public:
 	void cetakDokter();
 };
 
+class dokter {
+public:
+	string nama;
+	vector<pasien*> daftar_pasien;
+};
+
 
