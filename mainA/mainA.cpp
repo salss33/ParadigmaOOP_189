@@ -8,4 +8,5 @@ int main() {
 	ibu* varIbu = new ibu("dini");
 	ibu* varIbu = new ibu("novi");
 	anak* varAnak = new anak("tono");
+	anak* varAnak = new anak("rini");
 }
